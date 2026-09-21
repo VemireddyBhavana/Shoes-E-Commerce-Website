@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Products | ShoeX</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+<i class="fa-solid fa-shoe-prints"></i>
+
+<span>ShoeX</span>
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="products.html">Products</a></li>
+
+<li><a href="cart.html">Cart</a></li>
+
+<li><a href="wishlist.html">Wishlist</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="products-page">
+
+<div class="section-title">
+
+<h2>All Shoes</h2>
+
+<p>Choose your favorite pair.</p>
+
+</div>
+
+<div class="search-filter">
+
+<input type="text" placeholder="Search Shoes...">
+
+<select>
+
+<option>All Brands</option>
+<option>Nike</option>
+<option>Adidas</option>
+<option>Puma</option>
+<option>Reebok</option>
+
+</select>
+
+</div>
+
+<div class="products-grid">
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700">
+
+<h3>Nike Air Max</h3>
+
+<p>₹4,999</p>
+
+<button>View Details</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?w=700">
+
+<h3>Adidas Ultra Boost</h3>
+
+<p>₹5,499</p>
+
+<button>View Details</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=700">
+
+<h3>Puma RS-X</h3>
+
+<p>₹3,999</p>
+
+<button>View Details</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?w=700">
+
+<h3>New Balance</h3>
+
+<p>₹4,299</p>
+
+<button>View Details</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1608231387042-66d1773070a5?w=700">
+
+<h3>Reebok Zig</h3>
+
+<p>₹3,799</p>
+
+<button>View Details</button>
+
+</div>
+
+<div class="product-card">
+
+<img src="https://images.unsplash.com/photo-1511556532299-8f662fc26c06?w=700">
+
+<h3>Converse</h3>
+
+<p>₹2,999</p>
+
+<button>View Details</button>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="product-buttons">
+
+<button class="add-cart"
+onclick="addToCart(
+'Nike Air Max',
+4999,
+'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700'
+)">
+<i class="fa-solid fa-cart-shopping"></i>
+Add to Cart
+</button>
+
+<button
+class="wishlist-btn"
+onclick="addToWishlist(
+'Nike Air Max',
+4999,
+'https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=700'
+)">
+<i class="fa-regular fa-heart"></i>
+</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
